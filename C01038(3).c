@@ -6,9 +6,9 @@ void change(int n) {
 	int digits = (int)log10(n);
 	int first_digit = (n / pow(10, digits));
 	int x = pow(10, digits);
-	int middle = n % x; // n after deleting first_digit
+	int middle = n % x - last_digit; // n after deleting first_digit
 //	printf("%d %d", first_digit, middle);
-	int swapped_number = pow(10, digits) * last_digit + middle + first_digit - last_digit;
+	int swapped_number = pow(10, digits) * last_digit + middle + first_digit;
 	printf("%d", swapped_number);	
 }
 
