@@ -23,12 +23,12 @@ int main() {
 				/*
 				This function is used to append a formatted string to the end of another string. It takes four arguments:
 
-output: a pointer to the destination string
-strlen(output): the length of the destination string, used to find the position where the new string will be appended
-“%c%d”: a format specifier that indicates how the next two arguments will be formatted. %c means a single character and %d means a decimal integer
-current_char: the character to be appended
-current_count: the integer to be appended
-For example, if output is “aa” and current_char is ‘b’ and current_count is 3, then the function will append “b3” to output and make it “aab3”.
+				output: a pointer to the destination string
+				strlen(output): the length of the destination string, used to find the position where the new string will be appended
+				“%c%d”: a format specifier that indicates how the next two arguments will be formatted. %c means a single character and %d means a decimal integer
+				current_char: the character to be appended
+				current_count: the integer to be appended
+				For example, if output is “aa” and current_char is ‘b’ and current_count is 3, then the function will append “b3” to output and make it “aab3”.
 				
 				
 				*/
