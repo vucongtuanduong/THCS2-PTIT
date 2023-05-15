@@ -1,2 +1,2 @@
 # THCS2-PTIT
-210/239 exercises on web
+212/239 exercises on web
