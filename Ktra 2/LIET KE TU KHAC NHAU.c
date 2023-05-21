@@ -42,7 +42,7 @@ tuong
 
 
 */
-void tolower(char input[]) {
+void to_lower(char input[]) {
 	for (int i = 0; i < strlen(input); i++) {
 		if (input[i] >= 'A' && input[i] <= 'Z') {
 			input[i] += 32;
@@ -67,15 +67,21 @@ int main () {
 		
 	}
 	for (int i = 0; i < count; i++) {
-		tolower(res[i]);
+		to_lower(res[i]);
 	}
-//	for (int i = 0; i < count; i++) {
-//		printf("%s\n", res[i]);
-//	}
 	for (int i = 0; i < count; i++) {
+		printf("%s\n", res[i]);
+	}
+	char c = "\n";
+	printf("count: %d", count)
+;	for (int i = 0; i < count; i++) {
 		int ok = 1;
 		for (int j = 0; j < i; j++) {
 			if (strcmp(res[i], res[j]) == 0) {
+				ok = 0;
+			}
+			
+			if (strcmp(res[i], "\n") == 0) {
 				ok = 0;
 			}
 		}
