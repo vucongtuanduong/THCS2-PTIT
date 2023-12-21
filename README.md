@@ -7,5 +7,5 @@ Now, after taking the C++ course, my mindset is much better but still far from p
 
 Just quick lines of thought in my learning path to be a developer and my time in university
 
-Hanoi, December 21st, 2023\
+Hanoi, December 21st, 2023
 
